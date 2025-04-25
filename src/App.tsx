@@ -18,6 +18,7 @@ function createColorSystem() {
     BK: { name: "Black", rgb: [0, 0, 0] },
   };
 
+
   // Function to get RGB value from color code
   function getRgbStyle(code) {
     if (colorDefinitions[code]) {
@@ -220,7 +221,7 @@ export default function ColorGridTest() {
   const copyToClipboard = async () => {
     try {
       await navigator.clipboard.writeText(formattedOrderCode);
-      alert("Código copiado para a área de transferência!");
+      alert("Color Code copied to Clipboard !");
     } catch (err) {
       console.error("Falha ao copiar:", err);
       alert("Erro ao copiar. Tente novamente.");
@@ -283,7 +284,11 @@ export default function ColorGridTest() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center max-w-md mx-auto p-4 bg-gray-100 rounded-lg shadow-md">
+    <div className="flex flex-col items-center max-w-md mx-auto p-4 bg-gray-100 rounded-lg shadow-md"
+  style={{ backgroundColor: "#CCCCCC"}} // Gray Background
+
+>
+
       <h1 className="text-xl font-bold mb-4">POKZ ColorGrid Selector</h1>
 
       {/* Template dropdown */}

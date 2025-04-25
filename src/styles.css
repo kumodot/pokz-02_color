@@ -3,6 +3,10 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 20px;
+
+  background-color: #333333; /* Cinza escuro */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove espaçamentos padrão */
 }
 
 /* Grid manual */
@@ -22,3 +26,5 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
+
+
