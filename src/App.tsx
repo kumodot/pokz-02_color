@@ -106,6 +106,22 @@ const colorTemplates = [
     name: "MAESTRO RHYTHM&SOUND (1968) - SOON",
     code: "BK_BK_BK_BK/OR_OR_OR_OR/IB_IB_IB_IB/YE_YE_YE_YE",
   },
+  {
+    name: "ALL PURPLE",
+    code: "PU_PU_PU_PU/PU_PU_PU_PU/PU_PU_PU_PU/PU_PU_PU_PU",
+  },
+  {
+    name: "GameBoy",
+    code: "LG_LG_LG_LG/LG_DG_RD_RD/DG_DG_DG_LG/LG_DG_LG_LG",
+  },
+  {
+    name: "FADE",
+    code: "BK_DG_LG_WH/BK_DG_LG_WH/BK_DG_LG_WH/BK_DG_LG_WH",
+  },
+  {
+    name: "MERICA",
+    code: "BL_BL_WH_WH/BL_BL_RD_RD/WH_WH_WH_WH/RD_RD_RD_RD",
+  },
 ];
 
 // Main component
