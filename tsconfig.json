@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    // Nível de compatibilidade
+
+    
+    // Bibliotecas padrão
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    
+    // Configurações de módulo
+    "target": "ESNext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "module": "NodeNext", // Adicione esta linha
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    
+    // JSX (React)
+    "jsx": "react-jsx",
+    
+    // Verificações de tipo
+    "strict": true,
+    "noImplicitAny": false,        // Permite `any` implícito (similar ao Sonnet)
+    "strictNullChecks": true,      // Melhor segurança contra null/undefined
+    "noUnusedLocals": true,        // Avisa sobre variáveis não usadas
+    
+    // Features experimentais
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    
+    // Outras configurações
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    
+    // Caminhos de importação (opcional)
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  
+  // Incluir apenas a pasta src
+  "include": ["src"],
+  
+  // Excluir pastas desnecessárias
+  "exclude": ["node_modules", "dist"]
+}
