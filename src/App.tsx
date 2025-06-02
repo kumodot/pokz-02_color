@@ -13,9 +13,9 @@ function createColorSystem() {
     GR: { name: "Green", rgb: [136, 196, 73] },
     IB: { name: "Ice Blue", rgb: [178, 240, 229] },
     BL: { name: "Blue", rgb: [69, 204, 245] },
-    PU: { name: "Purple", rgb: [135, 111, 204] },
+    PU: { name: "Purple", rgb: [148, 132, 187] },
     LG: { name: "Light Gray", rgb: [224, 224, 224] },
-    DG: { name: "Dark Gray", rgb: [96, 96, 96] },
+    MG: { name: "Medium Gray", rgb: [160, 160, 160] },
     DG: { name: "Dark Gray", rgb: [96, 96, 96] },
     WH: { name: "White", rgb: [255, 255, 255] },
     BK: { name: "Black", rgb: [0, 0, 0] },
@@ -292,7 +292,7 @@ export default function ColorGridTest() {
 
 >
 
-<h1 className="text-xl font-bold mb-4">POkz cases Theme Maker</h1>
+      <h1 className="text-xl font-bold mb-4">POkz Custom Theme by KumodotDesign</h1>
 
       {/* Template dropdown */}
       <div className="w-full mb-4">
