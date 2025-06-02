@@ -15,6 +15,7 @@ function createColorSystem() {
     BL: { name: "Blue", rgb: [69, 204, 245] },
     PU: { name: "Purple", rgb: [135, 111, 204] },
     LG: { name: "Light Gray", rgb: [224, 224, 224] },
+    MG: { name: "Medium Gray", rgb: [160, 160, 160] },
     DG: { name: "Dark Gray", rgb: [96, 96, 96] },
     WH: { name: "White", rgb: [255, 255, 255] },
     BK: { name: "Black", rgb: [0, 0, 0] },
