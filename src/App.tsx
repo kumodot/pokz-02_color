@@ -88,7 +88,7 @@ const colorSystem = createColorSystem();
 const colorTemplates = [
   {
     name: "ImPOstor",
-    code: "RD_RD_RD_RD/RD_RD_RD_RD/GY_GY_GY_GY/GY_GY_GY_GY",
+    code: "RD_RD_RD_RD/RD_RD_RD_RD/MG_MG_MG_MG/MG_MG_MG_MG",
   },
   {
     name: "Linn LM-1(1980)",
@@ -100,7 +100,7 @@ const colorTemplates = [
   },
   {
     name: "TR-808 PATTERN (1980)",
-    code: "RD_RD_RD_RD/OR_OR_OR_OR/YE_YE_YE_YE/GY_GY_GY_GY",
+    code: "RD_RD_RD_RD/OR_OR_OR_OR/YE_YE_YE_YE/WH_WH_WH_WH",
   },
   {
     name: "TR-909 PATTERN (1983)",
