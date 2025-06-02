@@ -6,5 +6,5 @@ const isProd = process.env.NODE_ENV === "production";
 
 export default defineConfig({
   plugins: [react()],
-  base: isProd ? "/pokz-02_color/" : "./",
+  base: "/pokz-02_color/",
 });
