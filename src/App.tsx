@@ -1,4 +1,4 @@
-// test push
+// To Update on GIT run the deploy.ps1 on root of the project
 
 import { useState, useEffect, useRef } from "react";
 import html2canvas from "html2canvas";
@@ -13,7 +13,7 @@ function createColorSystem() {
     GR: { name: "Green", rgb: [136, 196, 73] },
     IB: { name: "Ice Blue", rgb: [178, 240, 229] },
     BL: { name: "Blue", rgb: [69, 204, 245] },
-    PU: { name: "Purple", rgb: [148, 132, 187] },
+    PU: { name: "Purple", rgb: [162, 145, 205] },
     LG: { name: "Light Gray", rgb: [224, 224, 224] },
     MG: { name: "Medium Gray", rgb: [160, 160, 160] },
     DG: { name: "Dark Gray", rgb: [96, 96, 96] },
