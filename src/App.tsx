@@ -16,6 +16,7 @@ function createColorSystem() {
     PU: { name: "Purple", rgb: [135, 111, 204] },
     LG: { name: "Light Gray", rgb: [224, 224, 224] },
     DG: { name: "Dark Gray", rgb: [96, 96, 96] },
+    DG: { name: "Dark Gray", rgb: [96, 96, 96] },
     WH: { name: "White", rgb: [255, 255, 255] },
     BK: { name: "Black", rgb: [0, 0, 0] },
   };
@@ -291,7 +292,7 @@ export default function ColorGridTest() {
 
 >
 
-      <h1 className="text-xl font-bold mb-4">POKZ ColorGrid Selector</h1>
+<h1 className="text-xl font-bold mb-4">POkz cases Theme Maker</h1>
 
       {/* Template dropdown */}
       <div className="w-full mb-4">
