@@ -292,7 +292,7 @@ export default function ColorGridTest() {
 
 >
 
-      <h1 className="text-xl font-bold mb-4">POKZ ColorGrid Selector</h1>
+      <h1 className="text-xl font-bold mb-4">POkz cases Theme Maker</h1>
 
       {/* Template dropdown */}
       <div className="w-full mb-4">
