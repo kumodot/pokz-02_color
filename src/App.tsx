@@ -96,7 +96,7 @@ const colorTemplates = [
   },
   {
     name: "Akai MPC 60 (1981)",
-    code: "LG_LG_LG_LG/DG_DG_DG_DG/BL_BL_BL_BL/RD_RD_RD_RD",
+    code: "MG_MG_MG_MG/DG_DG_DG_DG/BL_BL_BL_BL/RD_RD_RD_RD",
   },
   {
     name: "TR-808 PATTERN (1980)",
@@ -104,7 +104,7 @@ const colorTemplates = [
   },
   {
     name: "TR-909 PATTERN (1983)",
-    code: "DG_DG_DG_DG/WH_WH_WH_WH/OR_OR_OR_OR/LG_LG_LG_LG",
+    code: "DG_DG_DG_DG/WH_WH_WH_WH/OR_OR_OR_OR/MG_MG_MG_MG",
   },
   {
     name: "MAESTRO RHYTHM&SOUND (1968) - SOON",
@@ -116,11 +116,11 @@ const colorTemplates = [
   },
   {
     name: "GameBoy",
-    code: "LG_LG_LG_LG/LG_DG_RD_RD/DG_DG_DG_LG/LG_DG_LG_LG",
+    code: "MG_MG_MG_MG/MG_DG_RD_RD/DG_DG_DG_MG/MG_DG_MG_MG",
   },
   {
     name: "FADE",
-    code: "BK_DG_LG_WH/BK_DG_LG_WH/BK_DG_LG_WH/BK_DG_LG_WH",
+    code: "BK_DG_MG_WH/BK_DG_MG_WH/BK_DG_MG_WH/BK_DG_MG_WH",
   },
   {
     name: "MERICA",
